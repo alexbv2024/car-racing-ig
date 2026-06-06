@@ -1,24 +1,15 @@
-# Unity generated
+# Unity-specific (oficial Unity .gitignore)
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
-[Rr]ecordings/
-
-# Asset meta data
-!/[Aa]ssets/**/*.meta
-
-# IDE files
-.vs/
-.vscode/
+[Uu]ser[Ss]ettings/
 *.csproj
 *.unityproj
 *.sln
-*.slnx
 *.suo
 *.tmp
 *.user
@@ -28,12 +19,24 @@
 *.svd
 *.pdb
 *.mdb
+*.opendb
+*.VC.db
 
-# Builds
-*.apk
-*.aab
-*.unitypackage
-*.app
-
-# macOS
+# OS files
 .DS_Store
+Thumbs.db
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Fișiere mari Brașov (re-descărcabile din MapNG)
+Assets/Brasov/BrasovTerrain/*.glb
+Assets/Brasov/BrasovTerrain/*.dae
+Assets/Brasov/BrasovTerrain/*.zip
+Assets/Brasov/BrasovTerrain/*.tif
+Assets/Brasov/BrasovTerrain/model.dae
+
+# Recovery folder Unity
+Assets/_Recovery/
